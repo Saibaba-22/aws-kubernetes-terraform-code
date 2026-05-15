@@ -269,18 +269,3 @@ variable "ec2_key" {
   type        = string
   default     = "ec2-key"
 }
-
-
-# For send time and later use this block 
-/* 
-# =========================
-# EXISTING IAM ROLE ARNs
-# =========================
-
-locals {
-  cluster_role_arn = "arn:aws:iam::YOUR_ACCOUNT_ID:role/sai01-cluster-role"
-  node_role_arn    = "arn:aws:iam::YOUR_ACCOUNT_ID:role/sai01-node-group-role"
-  ebs_csi_role_arn = "arn:aws:iam::YOUR_ACCOUNT_ID:role/AmazonEKS_EBS_CSI_DriverRole"
-}
-
-*/
