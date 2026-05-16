@@ -1,3 +1,8 @@
+FIRST TIME ONLY:
+create IAM roles, attach policies, create cluster
+create node group, create OIDC
+
+# VPC
 resource "aws_vpc" "sai01_vpc" {
   cidr_block = "10.0.0.0/16"
 
